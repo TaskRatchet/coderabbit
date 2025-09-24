@@ -1,3 +1,4 @@
 # https://docs.coderabbit.ai/guides/configure-coderabbit
 reviews:
+  profile: assertive
   sequence_diagrams: false
