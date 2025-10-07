@@ -2,3 +2,4 @@
 reviews:
   profile: assertive
   sequence_diagrams: false
+  review_status: false
