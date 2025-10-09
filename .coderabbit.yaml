@@ -1,5 +1,13 @@
 # https://docs.coderabbit.ai/guides/configure-coderabbit
 reviews:
-  profile: assertive
   sequence_diagrams: false
-  review_status: false
+  review_status: true
+  profile: assertive
+  auto_review:
+    enabled: true
+    ignore_usernames:
+      []
+    request_changes_workflow: true
+  tools:
+    markdownlint:
+      enabled: false
