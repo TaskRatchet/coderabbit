@@ -4,6 +4,8 @@ reviews:
   review_status: true
   fail_commit_status: true
   profile: assertive
+  path_filters:
+    - "!**/.specify/**"
   auto_review:
     enabled: true
     ignore_usernames:
